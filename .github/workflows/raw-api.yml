@@ -9,6 +9,8 @@ on:
 
     workflow_dispatch:
 
+cache-mode: none
+
 concurrency:
     group: ${{ github.ref }}-raw-api
     cancel-in-progress: true
