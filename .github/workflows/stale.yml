@@ -5,6 +5,8 @@ on:
     schedule:
         - cron: "30 14 * * *"
 
+cache-mode: none
+
 jobs:
     stale:
         runs-on: ubuntu-latest
