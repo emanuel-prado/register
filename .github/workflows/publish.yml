@@ -10,6 +10,8 @@ on:
 
     workflow_dispatch:
 
+cache-mode: none
+
 concurrency:
     group: ${{ github.ref }}-publish
     cancel-in-progress: false
